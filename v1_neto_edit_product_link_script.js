@@ -1,8 +1,8 @@
 function addeditbutton() {
 
     var productImages = [];//create empty array
-    var thumbs = document.querySelectorAll("img[src*='\/thumb']"); //thumb, thumbM, thumbL, thumbsdfsdfsfdfs will go in here
-    var fulls = document.querySelectorAll("img[src*='\/full']");//cant work with/asset
+    var thumbs = document.querySelectorAll("img[src*='/assets/thumb']"); //thumb, thumbM, thumbL, thumbsdfsdfsfdfs will go in here
+    var fulls = document.querySelectorAll("img[src*='/assets/full']");//cant work with/asset
 
     for (var p = 0; p < thumbs.length; p++) //loop and add the result above to array,put two result in one array
      {
