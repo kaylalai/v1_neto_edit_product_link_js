@@ -17,7 +17,7 @@ function addeditbutton() {
         var imageurl = productImages[i].src; //take the src only
         var sku = imageurl.substring(imageurl.lastIndexOf('/') + 1, imageurl.lastIndexOf('.'));//only take some part
         skus.push(sku); //use push = add the result sku to emty array
-        productImages[i].parentElement.outerHTML += '<button class="edit-button" style="border:1px solid #c0c0c0;position:absolute;top:0;left:0;margin:5px;padding:2px" onclick="location.href=\'/_cpanel/products/view?sku='+skus[i]+'\'">edit</button>';
+        productImages[i].parentElement.outerHTML += '<button class="edit-button" style="border:1px solid #c0c0c0;background-color:#6a0dad;color:#fff;position:absolute;top:0;left:0;margin:5px;padding:2px" onclick="location.href=\'/_cpanel/products/view?sku='+skus[i]+'\'">edit</button>';
 //put each sku in the button href
  //assign button, not work for innerHTML,is outside cannt not link the button to sku
 //not work for href 
