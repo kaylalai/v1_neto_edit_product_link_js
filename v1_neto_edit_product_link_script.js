@@ -1,3 +1,5 @@
+function addeditbutton() {
+
     var productImages = []; //create empty array
     var thumbs = document.querySelectorAll("img[src*='/assets/thumb']"); //thumb, thumbM, thumbL, thumbsdfsdfsfdfs will go in here
     var fulls = document.querySelectorAll("img[src*='/assets/full']");
